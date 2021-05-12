@@ -12,7 +12,7 @@ my_chat_id=$(uci get telegramopenwrt.global.my_chat_id)
 from=$(uci get telegramopenwrt.smtp.from)
 to=$(uci get telegramopenwrt.smtp.to)
 path="/sbin"
-plugins="/usr/lib/telegramopenwrt/plugins"
+plugins="/opt/telegramopenwrt/usr/lib/telegramopenwrt/plugins"
 actions="${plugins}/actions"
 
 touch  /var/run/bot_vars

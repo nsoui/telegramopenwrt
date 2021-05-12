@@ -3,9 +3,9 @@
 START=95
 STOP=15
 
-PROXYIP=192.168.250.2
-NETWORK=192.168.250.0/24
-CLIENTIFACE=br-lan
+PROXYIP=192.168.9.2
+NETWORK=192.168.9.0/24
+CLIENTIFACE=lan
 FWMARK=2
 
 HTTP=$(uci get telegramopenwrt.proxy.http | awk '{printf $0}')
