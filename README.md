@@ -151,14 +151,15 @@ This file reads the router logs with the logread -f command, and sends messages 
 #### init.d directory
 
 Contains the necessary files for the scripts to be started at the router boot, just move them to the /etc/init.d/ of the router and run:
+```shell
 /etc/init.d/lanports enable
 /etc/init.d/telegram_bot enable
-
+```
 And then:
-
+```shell
 /etc/init.d/lanports start
 /etc/init.d/telegram_bot start
-
+```
 #### plugins directory
 
 This is the main directory, it contains all the commands that the telegram bot can execute.
